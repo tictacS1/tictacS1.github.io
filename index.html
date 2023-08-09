@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio | Malick</title>
 </head>
+
 <body>
-    
+    <div id="wrapper1" class="container-fluid">
+        <nav class="navigation">
+            <div class="left">
+                <div class="logo">MALICK GONDY</div>
+                <div class="sublogo">Développeur Web</div>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="#aboutme">A propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="cv_malick.pdf" target="_blank">Mon CV</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- END NAVBAR -->
+
+        <!-- START HEADER -->
+
+        <div id="header" class="container-fluid">
+            <div id="welcome">
+                <h1>Bonjour.</h1>
+                <h4 style="padding-bottom: 50px">Imagination et Développement !</h4>
+                <a href="#aboutme" class="btn-circle">
+                    <i class="fa fa-angle-double-down"></i>
+                    <img src="media/arrow.png" id="arrow">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- END WRAPPER -->
+
+    <!-- START ABOUT ME -->
+
+    <div id="aboutme" class="container-fluid">
+        <div class="row" style="padding-top: 50px">
+            <div class="col-md-8">
+                <h4>Qui suis-je ?</h4><br>
+                <p>J'ai 19 ans et après l'obtention de mon diplôme du baccalauréat j'ai entamé une license LEA à
+                    l'Université d'Artois mais j'ai décidé de me réorienter vers le domaine qui me fascine !</p><br>
+
+                <p>J'ai toujours été inspiré par l'informatique en général, depuis mon plus jeune âge je me forme en
+                    autodidacte sur toutes les technologies a ma portée, c'est pour cela que j'ai débuté une formation
+                    afin de devenir développeur web.</p><br>
+
+                <p>Ayant grandi dans la ville de Lens en France j'ai un intérêt pour le football et mes passe-temps
+                    favoris sont la musique et la technologie.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="media/mwa.png" class="img-round"></img>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="container-fluid">
+        <h4>PORTFOLIO</h4><br><br>
+        <div class="row">
+            <h4 id="d1">Formulaires de Connexion / Inscription</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="margin-bottom: 10px">
+                <img src="media/login.png" class="img1">
+            </div>
+            <div class="col-md-6" style="margin-bottom: 10px">
+                <img src="media/register.png" class="img2">
+            </div>
+        </div>
+        <BR>
+        <div class="row">
+            <h4 id="d2">Page d'e-commerce / Forum</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="margin-bottom: 10px">
+                <img src="media/e_comm.png" class="img3">
+            </div>
+            <div class="col-md-6" style="margin-bottom: 10px">
+                <img src="media/forum.png" class="img4">
+            </div>
+        </div>
+    </div>
+    <div id="master">
+        <h4>Maîtrise :</h4><br><br>
+        <ul>
+            <li>Terminal Bash</li>
+            <li>Git</li>
+            <li>Woredpress</li>
+            <li>Python</li>
+            <li>
+              Web design
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </li>
+            <li>
+                Back-end
+                <ul>
+                    <li>SQL</li>
+                    <li>PHP</li>
+                </ul>
+            </li>
+          </ul>
+    </div>
+    <div id="footer" class="container-fluid">
+        <a href="https://github.com/tictacS1" target="blank" class="git-icn:hover"><img src="media/git.png" id="git" class="git-icn"></a>
+        <br><br>
+        <p>COPYRIGHT © 2023 MALICK GONDY</p>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
