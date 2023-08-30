@@ -355,21 +355,21 @@ a:hover {
     }
 
     .img1 {
-        height: 300px;
+        height: auto;
     }
     
     .img2 {
         margin-left: 0px;
-        height: 300px;
+        height: auto;
     }
     
     .img3 {
-        height: 300px;
+        height: auto;
     }
     
     .img4 {
         margin-left: 0px;
-        height: 300px;
+        height: auto;
     }
 
     #footer {
