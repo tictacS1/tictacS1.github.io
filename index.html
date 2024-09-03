@@ -33,8 +33,8 @@
     </div>
     <div id="header">
         <div id="welcome">
-            <h1>Bonjour.</h1>
-            <h4 style="padding-bottom: 50px">Imagination et Développement !</h4>
+            <h1>Bonjour,</h1>
+            <h4 style="padding-bottom: 50px">Développeur Web, Technicien d'assistance en informatique</h4>
             <a href="#anchor" class="btn-circle">
                 <i class="fa fa-angle-double-down"></i>
                 <img src="media/arrow.png" id="arrow">
@@ -53,12 +53,12 @@
         <div class="row" style="padding-top: 650px">
             <div id="anchor" class="col-md-8">
                 <h4>Qui suis-je ?</h4><br>
-                <p>J'ai 20 ans et après l'obtention de mon diplôme du baccalauréat, j'ai entamé une license LEA à
+                <p>J'ai 21 ans et après l'obtention de mon diplôme du baccalauréat, j'ai entamé une license LEA à
                     l'Université d'Artois mais j'ai décidé de me réorienter vers le domaine qui me fascine !</p><br>
 
                 <p>J'ai toujours été inspiré par l'informatique en général, depuis mon plus jeune âge je me forme en
-                    autodidacte sur toutes les technologies a ma portée, c'est pour cela que j'ai débuté une formation
-                    afin de devenir développeur web.</p><br>
+                    autodidacte sur toutes les technologies a ma portée, c'est pour cela que j'ai effectué une formation
+                    afin de devenir développeur web et entrepris une autre afin d'être qualifié pour être technicien d'assistance en informatique.</p><br>
 
                 <p>Ayant grandi dans la ville de Lens en France j'ai un intérêt pour le football et mes passe-temps
                     favoris sont la musique, la technologie et la lecture.
@@ -71,7 +71,7 @@
     </div>
     <!-- SKILLS -->
     <div id="master">
-        <h3 id="master-title">Skills</h3>
+        <h3 id="master-title">Savoir faire</h3>
         <div class="grid-master">
             <div class="master-1">
                 <div class="skill">
@@ -113,21 +113,35 @@
             <div class="next">&#10095;</div>
         </div>
     </div>
-    <div id="footer" class="container-fluid">
-        <h4 class="project">Me contacter</h4>
-        <div id="footer-left">
-            <ul>
-                <li>07 52 67 56 07</li>
-                <li>malick.gdy@gmail.com</li>
-            </ul>
+    <footer id="footer">
+        <div class="footer-title">
+            <hr>
+            <h2>CONTACT</h2>
+            <hr>
         </div>
-        <div id="footer-mid">
-            <a href="https://github.com/tictacS1" target="blank" class="git-icn:hover"><img src="media/git.png" id="git"
-                    class="git-icn"></a>
-            <br><br>
-            <p id="footer-cpy">COPYRIGHT © 2023 MALICK GONDY</p>
+        <div class="contact-info">
+            <div class="contact-icon" onclick="showContact('phone')">
+                <img src="media/phone-68-xxl.png" alt="Phone Icon">
+            </div>
+            <div class="contact-icon" onclick="showContact('email')">
+                <img src="media/email.png" alt="Email Icon">
+            </div>
+            <a href="https://github.com/tictacS1" target="blank" class="contact-icon"><img src="media/git.png" id="git"
+                class="git-icn"></a>
         </div>
-    </div>
+        <div id="contact-details" class="contact-details">
+            <!-- Phone number or email will be shown here -->
+        </div>
+        <nav class="footer-nav">
+            <a href="#">ACCUEIL</a>
+            <a href="CV-Malick-dev.pdf">MON CV</a>
+            <a href="#anchor">A PROPOS</a>
+            <a href="#portfolio">PORTFOLIO</a>
+        </nav>
+        <div class="footer-copyright">
+            <p>Copyright © 2023 - 2024 Malick GONDY. Tous droits réservés.</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 

@@ -25,3 +25,13 @@ prevBtn.addEventListener('click', prevGif);
 nextBtn.addEventListener('click', nextGif);
 
 showGif(currentIndex);
+
+function showContact(type) {
+    const contactDetails = document.getElementById('contact-details');
+
+    if (type === 'phone') {
+        contactDetails.innerText = '07 52 67 56 07'; // Replace with your actual phone number
+    } else if (type === 'email') {
+        contactDetails.innerText = 'malick.gdy@gmail.com'; // Replace with your actual email
+    }
+}
